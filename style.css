@@ -1,0 +1,282 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Navbar*/
+
+header {
+  background: rgb(91,219,49);
+  background: linear-gradient(90deg, rgba(91,219,49,1) 0%, rgba(177,219,86,1) 100%); 
+}
+
+nav {
+  padding: 5px;
+  text-align: right;
+  position: sticky;
+  top: 0;
+  overflow: auto;
+}
+
+nav li {
+  display: inline;
+  list-style-type: none;
+  margin-right: 20px;
+  width: 10px;
+}
+
+nav a {
+  font-size: 20px;
+  font-weight: 400;
+  text-decoration: none;
+  color: black;
+  margin-top: 30px;
+}
+
+nav img {
+  float: left;
+  height: 90px;
+  padding: 10px 0;
+}
+
+.nav-menu {
+  position: relative;
+  top: 50%;
+  transform: translate(0, 100%);
+  float: right;
+}
+
+.nav-menu ul li a:hover {
+  border-bottom: 2px solid maroon;
+  color: maroon;
+}
+/*Navbar End*/
+
+
+/*Deskripsi*/
+.deskripsi {
+  width: auto;
+  height: 150px;
+  background-color: #262d33;
+  color: #afb2b6;
+  text-align: justify;
+  padding-top: 2%;
+  margin: auto;
+  justify-items: center;
+  align-content: center;
+}
+
+.deskripsi h2 {
+  text-align: center;
+}
+
+.teks-deskripsi {
+  margin-top: 30px;
+  text-align: center;
+}
+/*Deskripsi End*/
+
+
+/*List Kategori Ebook*/
+.list-kategori-ebook {
+  margin: auto;
+  width: 70%;
+  height: auto;
+}
+
+.list-kategori-ebook .list {
+  margin: 20px 0;
+  background-color: #afb2b6;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.list-kategori-ebook a {
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+.list-kategori-ebook h3 {
+  text-align: center;
+}
+
+.list:hover {
+  background-color: #262d33;
+}
+
+.list a:hover {
+  color: #afb2b6;
+}
+
+.list-kategori-ebook p {
+  text-align: justify;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}
+/*End List Kategori Ebook*/
+
+/*About Blank Body*/
+.body-blank {
+  height: 300px;
+  width: auto;
+}
+/*End About Blank Body*/
+
+/*Contact*/
+.contact {
+  width: auto;
+  height: fit-content;
+  background-color: #262d33;
+  color: #000;
+}
+
+.contact-list {
+  background-color: #afb2b6;
+  width: 40%;
+  height: 50px;
+  padding: 2%;
+  margin: auto;
+  border-radius: 25%;
+  text-align: center;
+}
+
+.contact-list a{
+  text-decoration: none;
+  color: #000;
+}
+/*End Contact*/
+
+/*List Buku*/
+.buku {
+  width: 50%;
+  height: auto;
+  margin: auto;
+}
+ 
+.buku-list {
+  margin: auto;
+  height: auto;
+  background-color: #afb2b6;
+  padding: 10px;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  text-align: left;
+}
+
+.buku-list img {
+  float: left;
+  margin-right: 20px;
+}
+
+.buku-list a {
+  text-align: justify;
+  text-decoration: none;
+  color: #000;
+}
+/*End List Buku*/
+
+/*Nomor Halaman*/
+.nomor-halaman {
+  height: 50px;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.nomor-halaman ul li {
+  display: inline;
+  color: #000;
+  border-radius: 50%;
+  padding: 2% 2.5%;
+  margin-left: 5px;
+  justify-content: center;
+}
+
+.nomor-halaman ul li button a {
+  color: #000;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nomor-halaman ul li button {
+  background-color: #afb2b6;
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 50%;
+}
+
+.nomor-halaman ul li button:hover {
+  background-color: #4e789c;
+  transition: 0.3s;
+}
+
+/*End Nomor Halaman*/
+
+/*Footer*/
+footer {
+  background: rgb(91,219,49);
+  background: linear-gradient(90deg, rgba(91,219,49,1) 0%, rgba(177,219,86,1) 100%); 
+  height: 400px;
+}
+
+footer hr {
+  color: #000000;
+  background-color: #000000;
+  margin: 0;
+  height: 1px;
+}
+
+.footer-logo img {
+  width: 110px;
+  display: block;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.footer-logo p {
+  text-align: center;
+  color: #000000;
+  font-size: 20px;
+  font-family: 'Tahoma', Verdana, sans-serif;
+  text-transform: capitalize;
+  padding: 20px 0;
+}
+
+.footer-media p {
+  color: #000000;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-family: 'Tahoma', Verdana, sans-serif;
+  text-transform: capitalize;
+  padding-top: 20px;
+  text-align: center;
+}
+
+.footer-img {
+  height: auto;
+  width: fit-content;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.footer-img img {
+  width: 50px;
+}
+
+/*End Footer*/
