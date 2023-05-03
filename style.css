@@ -150,7 +150,7 @@ nav img {
   height: 50px;
   padding: 2%;
   margin: auto;
-  border-radius: 25%;
+  border-radius: 25px;
   text-align: center;
 }
 
@@ -177,6 +177,22 @@ nav img {
   margin-top: 20px;
   overflow: hidden;
   text-align: left;
+}
+
+.buku-list button {
+  background-color: #4e789c;
+  border: 1px;
+  border-radius:10px ;
+  height: 30px;
+  width: 50px;
+  margin-top: 10px;
+}
+
+.buku-list button:hover {
+  background-color: #305b80;
+  transition: 500ms;
+  text-decoration: underline;
+  border: #000 solid 2px;
 }
 
 .buku-list img {
