@@ -7,14 +7,36 @@ body {
   font-family: sans-serif;
   margin: 0;
   padding: 0;
+  background-color: #f9fbfc;
 }
 
+@font-face 
+{
+  font-family: 'Awal';
+  src: url('img/font/AwalRamadhan-eZ2WB.ttf');
+  src: url('img/font/AwalRamadhan-0WlyX.otf');
+}
+
+.first-color { 
+	background: #f9fbfc; 
+}
+	
+.second-color { 
+	background: #a0dbdb; 
+}
+
+.third-color { 
+	background: #56a7a7; 
+}
+
+.fourth-color { 
+	background: #fcea90; 
+}
 
 /*Navbar*/
 
 header {
-  background: rgb(91,219,49);
-  background: linear-gradient(90deg, rgba(91,219,49,1) 0%, rgba(177,219,86,1) 100%); 
+  background: #56a7a7;
 }
 
 nav {
@@ -30,6 +52,7 @@ nav li {
   list-style-type: none;
   margin-right: 20px;
   width: 10px;
+  padding-bottom: 20px;
 }
 
 nav a {
@@ -37,35 +60,71 @@ nav a {
   font-weight: 400;
   text-decoration: none;
   color: black;
-  margin-top: 30px;
 }
 
-nav img {
+nav h1 a{
   float: left;
-  height: 90px;
+  font-family: 'Awal';
+  font-size: 50px;
   padding: 10px 0;
 }
 
 .nav-menu {
   position: relative;
-  top: 50%;
+  top: 10%;
   transform: translate(0, 100%);
   float: right;
 }
 
 .nav-menu ul li a:hover {
-  border-bottom: 2px solid maroon;
-  color: maroon;
+  border-bottom: 2px solid #f88f26;
+  color: #f88f26;
 }
 /*Navbar End*/
 
+/*Image*/
+.main-img {
+  height: 450px;
+  background-color: #a0dbdb;
+}
+
+.main-img .kiri {
+  height: 350px;
+  width: 400px;
+  margin-left: 50px;
+  padding: 50px;
+  float: left;
+}
+
+.main-img .kanan {
+  height: 350px;
+  width: 400px;
+  margin-right: 50px;
+  padding: 50px;
+  float: right;
+}
+
+.main-img .kanan img {
+  width: 400px;
+  height: 350px;
+}
+
+.main-img h1 {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.main-img p {
+  text-align: justify;
+}
+/*End Image*/
 
 /*Deskripsi*/
 .deskripsi {
   width: auto;
   height: 150px;
-  background-color: #262d33;
-  color: #afb2b6;
+  background-color: #56a7a7;
+  color: #000;
   text-align: justify;
   padding-top: 2%;
   margin: auto;
@@ -81,6 +140,7 @@ nav img {
   margin-top: 30px;
   text-align: center;
 }
+
 /*Deskripsi End*/
 
 
@@ -93,7 +153,7 @@ nav img {
 
 .list-kategori-ebook .list {
   margin: 20px 0;
-  background-color: #afb2b6;
+  background-color: #a0dbdb;
   border-radius: 20px;
   padding: 10px;
 }
@@ -113,7 +173,7 @@ nav img {
 }
 
 .list:hover {
-  background-color: #262d33;
+  background-color: #56a7a7;
 }
 
 .list a:hover {
@@ -170,7 +230,7 @@ nav img {
 .buku-list {
   margin: auto;
   height: auto;
-  background-color: #afb2b6;
+  background-color: #a0dbdb;
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 20px;
@@ -189,7 +249,7 @@ nav img {
 }
 
 .buku-list button:hover {
-  background-color: #305b80;
+  background-color: #56a7a7;
   transition: 500ms;
   text-decoration: underline;
   border: #000 solid 2px;
@@ -230,7 +290,7 @@ nav img {
 }
 
 .nomor-halaman ul li button {
-  background-color: #afb2b6;
+  background-color: #a0dbdb;
   height: 40px;
   width: 40px;
   border: none;
@@ -238,7 +298,7 @@ nav img {
 }
 
 .nomor-halaman ul li button:hover {
-  background-color: #4e789c;
+  background-color: #56a7a7;
   transition: 0.3s;
 }
 
@@ -246,8 +306,7 @@ nav img {
 
 /*Footer*/
 footer {
-  background: rgb(91,219,49);
-  background: linear-gradient(90deg, rgba(91,219,49,1) 0%, rgba(177,219,86,1) 100%); 
+  background: #56a7a7;   
   height: 400px;
 }
 
@@ -258,11 +317,16 @@ footer hr {
   height: 1px;
 }
 
-.footer-logo img {
-  width: 110px;
-  display: block;
-  margin: auto;
+.footer-logo h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Awal';
   padding-top: 20px;
+}
+
+.footer-logo h1 a {
+  text-decoration: none;
+  color: #000;
 }
 
 .footer-logo p {
