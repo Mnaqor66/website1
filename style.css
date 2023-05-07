@@ -84,34 +84,26 @@ nav h1 a{
 
 /*Image*/
 .main-img {
-  height: 450px;
+  height: auto;
+  margin: auto;
   background-color: #a0dbdb;
 }
-
-.main-img .kiri {
-  height: 350px;
-  width: 400px;
-  margin-left: 50px;
-  padding: 50px;
-  float: left;
+.img-text {
+  margin: auto;
+  height: auto;
+  width: 70%;
+  background-color: #a0dbdb;
+  padding: 20px ;
+  border-radius: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+  text-align: left;
 }
 
-.main-img .kanan {
-  height: 350px;
-  width: 400px;
-  margin-right: 50px;
-  padding: 50px;
+.main-img img {
   float: right;
-}
-
-.main-img .kanan img {
-  width: 400px;
-  height: 350px;
-}
-
-.main-img h1 {
-  text-align: center;
-  padding-bottom: 20px;
+  width: 50%;
+  height: auto;
 }
 
 .main-img p {
@@ -353,6 +345,11 @@ footer hr {
   width: fit-content;
   margin: auto;
   padding-top: 20px;
+}
+
+.footer-img img:hover {
+  background-color: #f9fbfc;
+  border-radius: 55%;
 }
 
 .footer-img img {
