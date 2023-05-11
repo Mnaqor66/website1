@@ -85,7 +85,7 @@ nav h1 a{
 /*Image*/
 .main-img {
   height: auto;
-  margin: auto;
+  margin: 0 auto;
   background-color: #a0dbdb;
 }
 .img-text {
@@ -135,6 +135,22 @@ nav h1 a{
 
 /*Deskripsi End*/
 
+/*Batas Main-Image - Kategori*/
+.batas1 {
+  width: auto;
+  height: 25vh;
+  margin: -20px auto 0;
+  background-color: #56a7a7;
+}
+
+.batas1 h1 {
+  text-align: center;
+  line-height: 25vh;
+  font-size: 4em;
+  font-family: 'awal';
+}
+
+/*End Batas Main-Image - Kategori*/
 
 /*List Kategori Ebook*/
 .list-kategori-ebook {
@@ -216,7 +232,7 @@ nav h1 a{
 .buku {
   width: 50%;
   height: auto;
-  margin: auto;
+  margin: 110px auto 0;
 }
  
 .buku-list {
@@ -353,6 +369,26 @@ footer hr {
 }
 
 .footer-img img {
+  width: 50px;
+}
+
+.contact-us {
+  height: auto;
+  width: fit-content;
+  margin: auto;
+  padding-top: 20px;
+}
+
+.contact-logo {
+  padding-top: 1em;
+}
+
+.contact-us img:hover {
+  background-color: #f9fbfc;
+  border-radius: 55%;
+}
+
+.contact-us img {
   width: 50px;
 }
 
