@@ -56,8 +56,8 @@ nav li {
 }
 
 nav a {
-  font-size: 20px;
-  font-weight: 400;
+  font-size: 1em;
+  font-weight: 600;
   text-decoration: none;
   color: black;
 }
@@ -65,7 +65,7 @@ nav a {
 nav h1 a{
   float: left;
   font-family: 'Awal';
-  font-size: 50px;
+  font-size: 2em;
   padding: 10px 0;
 }
 
@@ -111,30 +111,6 @@ nav h1 a{
 }
 /*End Image*/
 
-/*Deskripsi*/
-.deskripsi {
-  width: auto;
-  height: 150px;
-  background-color: #56a7a7;
-  color: #000;
-  text-align: justify;
-  padding-top: 2%;
-  margin: auto;
-  justify-items: center;
-  align-content: center;
-}
-
-.deskripsi h2 {
-  text-align: center;
-}
-
-.teks-deskripsi {
-  margin-top: 30px;
-  text-align: center;
-}
-
-/*Deskripsi End*/
-
 /*Batas Main-Image - Kategori*/
 .batas1 {
   width: auto;
@@ -149,7 +125,6 @@ nav h1 a{
   font-size: 4em;
   font-family: 'awal';
 }
-
 /*End Batas Main-Image - Kategori*/
 
 /*List Kategori Ebook*/
@@ -197,42 +172,11 @@ nav h1 a{
 }
 /*End List Kategori Ebook*/
 
-/*About Blank Body*/
-.body-blank {
-  height: 300px;
-  width: auto;
-}
-/*End About Blank Body*/
-
-/*Contact*/
-.contact {
-  width: auto;
-  height: fit-content;
-  background-color: #262d33;
-  color: #000;
-}
-
-.contact-list {
-  background-color: #afb2b6;
-  width: 40%;
-  height: 50px;
-  padding: 2%;
-  margin: auto;
-  border-radius: 25px;
-  text-align: center;
-}
-
-.contact-list a{
-  text-decoration: none;
-  color: #000;
-}
-/*End Contact*/
-
 /*List Buku*/
 .buku {
   width: 50%;
   height: auto;
-  margin: 110px auto 0;
+  margin: auto;
 }
  
 .buku-list {
@@ -309,7 +253,6 @@ nav h1 a{
   background-color: #56a7a7;
   transition: 0.3s;
 }
-
 /*End Nomor Halaman*/
 
 /*Footer*/
@@ -391,5 +334,4 @@ footer hr {
 .contact-us img {
   width: 50px;
 }
-
 /*End Footer*/
