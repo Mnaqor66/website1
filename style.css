@@ -37,48 +37,30 @@ body {
 
 header {
   background: #56a7a7;
+  height: 5em;
+  padding: 0 2em;
 }
 
-nav {
-  padding: 5px;
-  text-align: right;
-  position: sticky;
-  top: 0;
-  overflow: auto;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-nav li {
-  display: inline;
-  list-style-type: none;
-  margin-right: 20px;
-  width: 10px;
-  padding-bottom: 20px;
+.logo-nav {
+  line-height: 3.5em;
+  font-size: 1.5em;
+  font-family: 'awal';
 }
 
-nav a {
+.nav-list{
+  display: flex;
+  flex-direction: row;
+  gap: 1em;
+  text-align: center;
   font-size: 1em;
   font-weight: 600;
-  text-decoration: none;
-  color: black;
-}
-
-nav h1 a{
-  float: left;
-  font-family: 'Awal';
-  font-size: 2em;
-  padding: 10px 0;
-}
-
-.nav-menu {
-  position: relative;
-  top: 10%;
-  transform: translate(0, 100%);
-  float: right;
-}
-
-.nav-menu ul li a:hover {
-  border-bottom: 2px solid #f88f26;
-  color: #f88f26;
+  line-height: 5em;
 }
 /*Navbar End*/
 
@@ -114,7 +96,7 @@ nav h1 a{
 /*Batas Main-Image - Kategori*/
 .batas1 {
   width: auto;
-  height: 25vh;
+  height: 10em;
   margin: -20px auto 0;
   background-color: #56a7a7;
 }
@@ -258,7 +240,7 @@ nav h1 a{
 /*Footer*/
 footer {
   background: #56a7a7;   
-  height: 400px;
+  height: fit-content;
 }
 
 footer hr {
