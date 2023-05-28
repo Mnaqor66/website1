@@ -17,6 +17,11 @@ body {
   src: url('img/font/AwalRamadhan-0WlyX.otf');
 }
 
+@font-face {
+  font-family: 'arab';
+  src: url(img/font/tradbdo.ttf);
+}
+
 .first-color { 
 	background: #f9fbfc; 
 }
@@ -34,147 +39,97 @@ body {
 }
 
 /*Navbar*/
-
-header {
-  background: #56a7a7;
-  height: 5em;
-  padding: 0 2em;
+.navbar1 {
+  background-color: #926236;
 }
 
-.navbar {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
-.logo-nav {
-  line-height: 3.5em;
-  font-size: 1.5em;
+.navbar1 h1 {
   font-family: 'awal';
 }
 
-.nav-list{
-  display: flex;
-  flex-direction: row;
-  gap: 1em;
-  text-align: center;
-  font-size: 1em;
-  font-weight: 600;
-  line-height: 5em;
+.navbar-nav .nav-link {
+  font-size: 1.2em;
+  font-family: 'Times New Roman', Times, serif;
+  transition: 1s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ffffff;
+  border-bottom: 1px solid #ffffff;
 }
 /*Navbar End*/
 
 /*Image*/
-.main-img {
-  height: auto;
-  margin: 0 auto;
-  background-color: #a0dbdb;
-}
-.img-text {
-  margin: auto;
-  height: auto;
-  width: 70%;
-  background-color: #a0dbdb;
-  padding: 20px ;
-  border-radius: 20px;
-  margin-bottom: 20px;
-  overflow: hidden;
-  text-align: left;
+#gambar {
+  width: auto;
+  height: 75vh;
+  background-image: url(img/books.jpg);
+  background-size: cover;
 }
 
-.main-img img {
-  float: right;
-  width: 50%;
-  height: auto;
+.textGambar {
+  font-family: 'Times New Roman', Times, serif;
 }
 
-.main-img p {
-  text-align: justify;
+.arab {
+  font-family: 'arab';
 }
+
 /*End Image*/
 
 /*Batas Main-Image - Kategori*/
 .batas1 {
   width: auto;
-  height: 10em;
-  margin: -20px auto 0;
-  background-color: #56a7a7;
+  height: auto;
+  background-color: #926236;
 }
 
 .batas1 h1 {
   text-align: center;
-  line-height: 25vh;
   font-size: 4em;
   font-family: 'awal';
 }
 /*End Batas Main-Image - Kategori*/
 
 /*List Kategori Ebook*/
-.list-kategori-ebook {
-  margin: auto;
-  width: 70%;
-  height: auto;
+.title {
+  background-color: #926236;
+  font-family: 'awal';
+  border-radius: 50px;
 }
 
-.list-kategori-ebook .list {
-  margin: 20px 0;
-  background-color: #a0dbdb;
-  border-radius: 20px;
-  padding: 10px;
-}
-
-.list-kategori-ebook a {
-  text-decoration: none;
-  text-align: center;
-  color: #000000;
-  font-size: 30px;
-  text-transform: uppercase;
-  font-family: 'Times New Roman', Times, serif;
-
-}
-
-.list-kategori-ebook h3 {
-  text-align: center;
-}
-
-.list:hover {
-  background-color: #56a7a7;
-}
-
-.list a:hover {
-  color: #afb2b6;
-}
-
-.list-kategori-ebook p {
-  text-align: justify;
-  font-size: 20px;
-  margin-top: 15px;
-  margin-bottom: 30px;
-  font-family: 'Times New Roman', Times, serif;
+.list-kategori {
+  background-color: #be8250;
+  border-radius: 50px;
 }
 /*End List Kategori Ebook*/
 
 /*List Buku*/
 .buku {
-  width: 50%;
+  width: 100%;
+  padding-top: 30px;
   height: auto;
   margin: auto;
 }
  
 .buku-list {
+  width: 50%;
   margin: auto;
   height: auto;
-  background-color: #a0dbdb;
+  background-color: #be8250;
   padding: 10px;
   border-radius: 20px;
   margin-bottom: 20px;
-  margin-top: 20px;
   overflow: hidden;
   text-align: left;
 }
 
+.buku-list a:hover {
+  color: #000;
+}
+
 .buku-list button {
-  background-color: #4e789c;
+  background-color: #926236;
   border: 1px;
   border-radius:10px ;
   height: 30px;
@@ -183,7 +138,7 @@ header {
 }
 
 .buku-list button:hover {
-  background-color: #56a7a7;
+  background-color: #fff;
   transition: 500ms;
   text-decoration: underline;
   border: #000 solid 2px;
@@ -224,7 +179,7 @@ header {
 }
 
 .nomor-halaman ul li button {
-  background-color: #a0dbdb;
+  background-color: #926236;
   height: 40px;
   width: 40px;
   border: none;
@@ -232,14 +187,14 @@ header {
 }
 
 .nomor-halaman ul li button:hover {
-  background-color: #56a7a7;
+  background-color: #fff;
   transition: 0.3s;
 }
 /*End Nomor Halaman*/
 
 /*Footer*/
 footer {
-  background: #56a7a7;   
+  background: #926236;   
   height: fit-content;
 }
 
