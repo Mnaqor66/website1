@@ -67,6 +67,16 @@ body {
   background-size: cover;
 }
 
+@media only screen and (max-width: 600px)
+{
+  #gambar {
+    width: auto;
+    height: 50vh;
+    background-image: url(img/books.jpg);
+    background-size: cover;
+  }
+}
+
 .textGambar {
   font-family: 'Times New Roman', Times, serif;
 }
