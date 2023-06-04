@@ -67,22 +67,15 @@ body {
   background-size: cover;
 }
 
-@media only screen and (max-width: 600px)
-{
-  #gambar {
-    width: auto;
-    height: 50vh;
-    background-image: url(img/books.jpg);
-    background-size: cover;
-  }
-}
-
-.textGambar {
-  font-family: 'Times New Roman', Times, serif;
-}
-
-.arab {
-  font-family: 'arab';
+.gambarTeks {
+  width: 100%;
+  height: 75vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color:#ffffffad;
 }
 
 /*End Image*/
@@ -282,3 +275,28 @@ footer hr {
   width: 50px;
 }
 /*End Footer*/
+
+/* Media Query */
+@media only screen and (max-width: 600px)
+{
+  /* gambar main */
+  #gambar {
+    width: auto;
+    height: 50vh;
+    background-image: url(img/books.jpg);
+    background-size: cover;
+  }
+  .gambarTeks {
+    height: 50vh;
+    
+  }
+  /* End Gambar Main */
+
+  /* Opening Kategoti */
+  .batas1 h1 {
+    font-size: 3em;
+  }
+  /* End Opening Kategoti */
+  
+}
+/* End Media Query */
