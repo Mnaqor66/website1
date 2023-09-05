@@ -22,22 +22,6 @@ body {
   src: url(img/font/tradbdo.ttf);
 }
 
-.first-color { 
-	background: #f9fbfc; 
-}
-	
-.second-color { 
-	background: #a0dbdb; 
-}
-
-.third-color { 
-	background: #56a7a7; 
-}
-
-.fourth-color { 
-	background: #fcea90; 
-}
-
 /*Navbar*/
 .navbar1 {
   background-color: #926236;
@@ -104,6 +88,13 @@ body {
 .list-kategori {
   background-color: #be8250;
   border-radius: 50px;
+  transition: 0.3s;
+}
+
+.list-kategori:hover {
+  background-color: #926236;
+  cursor: pointer;
+
 }
 /*End List Kategori Ebook*/
 
